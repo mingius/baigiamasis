@@ -1,0 +1,33 @@
+.block-1-row {
+  background-color: #ffffff; }
+  .block-1-row .icon-border {
+    padding: 100px 15px; }
+    .block-1-row .icon-border .block-1-media {
+      text-decoration: none; }
+      .block-1-row .icon-border .block-1-media p {
+        color: #9d9d9d; }
+      .block-1-row .icon-border .block-1-media h4 {
+        font-family: Arial;
+        transition: all 3000ms cubic-bezier(0.19, 1, 0.22, 1);
+        color: #9d9d9d; }
+      .block-1-row .icon-border .block-1-media h4:hover {
+        color: #93dfda;
+        transition: all 3000ms cubic-bezier(0.19, 1, 0.22, 1); }
+      .block-1-row .icon-border .block-1-media .btn-icon {
+        width: 80px;
+        height: 80px;
+        border: 1px solid #93dfda;
+        border-radius: 40px;
+        box-shadow: inset 0 0 20px rgba(8, 123, 116, 0);
+        text-shadow: none;
+        transition: all 3000ms cubic-bezier(0.19, 1, 0.22, 1);
+        background-color: #ffffff;
+        color: #93dfda; }
+      .block-1-row .icon-border .block-1-media .btn-icon:hover {
+        border: 1px solid #93dfda;
+        box-shadow: inset 0 0 20px rgba(8, 123, 116, 0.5), 0 0 20px rgba(8, 123, 116, 0.2);
+        text-shadow: 1px 1px 2px #427388;
+        background-color: #93dfda;
+        color: #FFFFFF; }
+
+/*# sourceMappingURL=block-1.css.map */

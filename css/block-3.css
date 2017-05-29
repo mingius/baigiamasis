@@ -1,0 +1,59 @@
+.block-3-row {
+  background-color: #f3f3f3; }
+  .block-3-row .tab-block {
+    margin: 40px 0; }
+    .block-3-row .tab-block h3 {
+      font-family: Bebas;
+      margin-bottom: 30px;
+      color: #717978; }
+    .block-3-row .tab-block .nav-tabs {
+      border: none;
+      min-height: 30px; }
+      .block-3-row .tab-block .nav-tabs li a {
+        color: #717978;
+        margin: 0px; }
+      .block-3-row .tab-block .nav-tabs li.active {
+        border-top: 4px solid #1dccc7; }
+        .block-3-row .tab-block .nav-tabs li.active a.active {
+          color: #1dccc7; }
+      .block-3-row .tab-block .nav-tabs .tab-content, .block-3-row .tab-block .nav-tabs .block-3-tab, .block-3-row .tab-block .nav-tabs .tab-image {
+        background-color: #FFFFFF; }
+    .block-3-row .tab-block .tab-content {
+      height: auto;
+      background-color: #FFFFFF;
+      border-left: 1px solid #e3e3e3;
+      border-bottom: 1px solid #e3e3e3;
+      border-right: 1px solid #e3e3e3; }
+      .block-3-row .tab-block .tab-content .block-3-tab {
+        padding: 10px; }
+        .block-3-row .tab-block .tab-content .block-3-tab .tab-ul {
+          list-style-type: none;
+          padding-left: 0px; }
+          .block-3-row .tab-block .tab-content .block-3-tab .tab-ul .tab-li {
+            padding-bottom: 10px; }
+            .block-3-row .tab-block .tab-content .block-3-tab .tab-ul .tab-li i {
+              color: #dc4937; }
+            .block-3-row .tab-block .tab-content .block-3-tab .tab-ul .tab-li .tab-link {
+              text-decoration: none;
+              color: #939393;
+              padding-left: 10px; }
+      .block-3-row .tab-block .tab-content .tab-pane p {
+        margin-bottom: 0px;
+        padding: 20px 10px;
+        color: #939393; }
+      .block-3-row .tab-block .tab-content .tab-pane .tab-image {
+        padding: 10px; }
+        .block-3-row .tab-block .tab-content .tab-pane .tab-image img {
+          max-width: 100%; }
+
+.block-3-right .accordion-block {
+  margin: 40px 0px; }
+  .block-3-right .accordion-block h3 {
+    font-family: Bebas;
+    margin-bottom: 30px;
+    color: #717978; }
+  .block-3-right .accordion-block .nl-label {
+    font-family: Arial;
+    font-weight: lighter; }
+
+/*# sourceMappingURL=block-3.css.map */

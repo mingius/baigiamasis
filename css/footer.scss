@@ -1,0 +1,29 @@
+footer {
+  height: 80px;
+  background-color: #131718;
+  font-family: Arial;
+
+  color: #525859;
+
+
+  .footer-row{
+    margin: 0px;
+    padding: 0px;
+
+    .footer-block-left{
+
+      a{
+        text-decoration: none;
+      }
+    }
+
+    .footer-block-right{
+      display: table;
+
+      a{
+        float: right;
+        text-decoration: none;
+      }
+    }
+  }
+}

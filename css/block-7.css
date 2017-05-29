@@ -1,0 +1,50 @@
+.block-7-row {
+  background-color: #ffffff;
+  border: 1px solid #9d9d9d; }
+  .block-7-row .block-7-title {
+    text-align: center; }
+    .block-7-row .block-7-title h1 {
+      font-family: Bebas;
+      margin: 60px 0px; }
+  .block-7-row .table {
+    text-align: center;
+    border: 1px solid #dddddd;
+    border-radius: 3px; }
+    .block-7-row .table th {
+      color: #1dccc7;
+      height: 100px;
+      font-size: 20px;
+      font-family: Bebas;
+      font-weight: lighter;
+      text-align: center; }
+    .block-7-row .table td {
+      background-color: #FFFFFF;
+      vertical-align: inherit;
+      height: 50px; }
+      .block-7-row .table td span {
+        font-family: arial;
+        color: #9d9d9d;
+        padding: 10px; }
+      .block-7-row .table td .fa-check {
+        color: #bdde88; }
+      .block-7-row .table td .fa-times {
+        color: #cd6956; }
+      .block-7-row .table td button {
+        margin: 30px 10px;
+        padding: 10px;
+        color: #9d9d9d;
+        border-radius: 20px;
+        font-family: Italic; }
+  .block-7-row .hexagon-circle .hex-text {
+    text-align: center;
+    font-family: Arial;
+    font-weight: bolder;
+    color: #1dccc7; }
+  .block-7-row .table-div:hover thead {
+    background-color: #1dccc7;
+    transition: all .3s ease-out; }
+    .block-7-row .table-div:hover thead th {
+      color: #FFFFFF;
+      transition: all .6s ease-out; }
+
+/*# sourceMappingURL=block-7.css.map */

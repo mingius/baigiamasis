@@ -1,22 +1,81 @@
+header {
+  background-color: #FFFFFF;
+  color: #777777; }
+
 .mini-nav {
   min-height: 30px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   border-radius: 0;
   font-size: 10px; }
   .mini-nav li {
     padding: 5px 10px; }
     .mini-nav li a {
-      padding: 0; }
+      padding: 0;
+      color: #1dccc7; }
 
 .navbar-default {
   background-color: #ffffff;
-  margin-bottom: 0px;
-  border-radius: 0; }
+  margin-bottom: 0;
+  border-radius: 0;
+  font-weight: bold;
+  border: none; }
   .navbar-default .nav-container {
-    display: table; }
-    .navbar-default .nav-container .navbar-brand {
-      padding: 0;
-      display: table-cell;
-      vertical-align: middle; }
+    height: 70px;
+    border: none; }
+    .navbar-default .nav-container .navbar-brand img {
+      padding: 5px; }
+    .navbar-default .nav-container .nav-bar-left li {
+      padding: 10px; }
+      .navbar-default .nav-container .nav-bar-left li a {
+        font-size: 8px; }
+  .navbar-default .dropbtn {
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer; }
+  .navbar-default .dropbtn:hover {
+    color: #1dccc7; }
+  .navbar-default .dropdown {
+    position: relative;
+    display: inline-block; }
+  .navbar-default .dropdown-content {
+    font-family: Arial;
+    font-weight: lighter;
+    font-size: 10px;
+    display: none;
+    position: absolute;
+    background-color: #222222;
+    opacity: 0.9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1; }
+  .navbar-default .dropdown-content a {
+    border-bottom: 1px solid #323232;
+    color: #ffffff;
+    opacity: 1;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block; }
+  .navbar-default .dropdown-content a:hover {
+    background-color: #141414; }
+  .navbar-default .dropdown:hover .dropdown-content {
+    display: block; }
+  .navbar-default .dropdown:hover .dropbtn {
+    background-color: #ffffff;
+    color: #1dccc7; }
+  .navbar-default .navbar-form {
+    padding: 0; }
+    .navbar-default .navbar-form .input-group input {
+      width: 150px;
+      border-radius: 15px; }
+    .navbar-default .navbar-form .input-group-btn {
+      padding-left: 10px; }
+      .navbar-default .navbar-form .input-group-btn .btn {
+        background-color: #FFFFFF;
+        border: 1px solid #d5d5d5;
+        border-radius: 15px; }
+      .navbar-default .navbar-form .input-group-btn .btn:hover {
+        color: #1dccc7; }
+  .navbar-default #myNavbar {
+    background-color: #FFFFFF; }
 
 /*# sourceMappingURL=navbar.css.map */

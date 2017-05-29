@@ -1,0 +1,29 @@
+.block-8-row {
+  background-color: #FFFFFF; }
+  .block-8-row .container .block-8-title {
+    text-align: center;
+    font-family: Bebas;
+    margin: 60px 10px; }
+  .block-8-row .container .contact-icon {
+    padding: 40px 0px;
+    color: #1dccc7; }
+    .block-8-row .container .contact-icon span {
+      font-size: 30px;
+      font-family: Bebas;
+      margin-left: 20px; }
+  .block-8-row .container .form-horizontal {
+    margin-bottom: 80px; }
+    .block-8-row .container .form-horizontal .form-group label {
+      text-align: left;
+      color: #9d9d9d; }
+    .block-8-row .container .form-horizontal .form-group .btn-default {
+      width: 100%;
+      background-color: #1dccc7;
+      color: #FFFFFF; }
+      .block-8-row .container .form-horizontal .form-group .btn-default span {
+        font-family: Arial;
+        padding-left: 10px; }
+      .block-8-row .container .form-horizontal .form-group .btn-default span:hover {
+        border: 0px; }
+
+/*# sourceMappingURL=block-8.css.map */

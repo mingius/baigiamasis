@@ -1,0 +1,63 @@
+.block-10-row {
+  background-color: #181f21;
+  color: #FFFFFF; }
+  .block-10-row .group {
+    margin: 80px 0px; }
+    .block-10-row .group hr {
+      background-color: #FFFFFF; }
+    .block-10-row .group h4 {
+      font-weight: bolder;
+      margin-bottom: 20px; }
+    .block-10-row .group img {
+      margin-bottom: 20px; }
+    .block-10-row .group p {
+      color: #9d9d9d;
+      margin-bottom: 20px; }
+    .block-10-row .group .btn-default {
+      color: #FFFFFF;
+      background-color: #0e1417;
+      border: none; }
+  .block-10-row .row .thumb-img {
+    padding: 0px; }
+    .block-10-row .row .thumb-img img {
+      max-width: 100%; }
+  .block-10-row .row .thumb-text h5 {
+    font-size: 15px;
+    color: #d8d8d8;
+    margin-bottom: 5px;
+    margin-top: 0px; }
+  .block-10-row .row .thumb-text p {
+    font-size: 12px;
+    font-family: HappyTime; }
+  .block-10-row .btn-more-posts {
+    width: 100%;
+    background-color: #14191a;
+    color: #1dccc7;
+    border: 1px solid #1dccc7; }
+  .block-10-row .widget-img {
+    padding: 5px; }
+    .block-10-row .widget-img img {
+      max-width: 100%;
+      margin: 0px; }
+  .block-10-row .group1-content {
+    margin: 40px 0px; }
+    .block-10-row .group1-content .cloud-tags .btn {
+      margin: 2px 0px;
+      font-size: 12px;
+      border: 1px solid transparent;
+      border-radius: 4px;
+      font-family: Arial;
+      font-weight: lighter;
+      padding: 10px;
+      background-color: #091012;
+      color: #9d9d9d; }
+      .block-10-row .group1-content .cloud-tags .btn a {
+        text-decoration: none; }
+    .block-10-row .group1-content .cloud-tags .btn:hover {
+      border: 1px solid #1dccc7;
+      color: #FFFFFF;
+      transition: all .8s ease-out; }
+  .block-10-row hr {
+    border: 1px solid #242a2c; }
+
+/*# sourceMappingURL=block-10.css.map */

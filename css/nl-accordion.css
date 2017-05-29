@@ -1,0 +1,56 @@
+body{
+	font-family: Arial;
+	font-size:14px;	
+}
+.nl-accordion{
+	margin:0 auto;	
+	background-color: #f3f3f3;
+}
+.nl-accordion label.nl-label{
+  display:block;
+  font-size:100%;
+  line-height:100%;
+  background-color:#FFFFFF;
+  border:1px solid #e3e3e3;
+  color: #939393;
+  cursor:pointer;
+  text-transform:uppercase;
+}
+.nl-accordion > ul{
+  list-style:none;
+  margin:0;
+  padding:0;    
+}
+.nl-accordion > ul li {
+  overflow:hidden;
+  margin:0 0 1px;
+}
+.nl-accordion > ul li label.nl-label {
+  padding:10px;
+}
+
+.nl-accordion [type="radio"].nl-radio, .nl-accordion [type="checkbox"].nl-checkbox {
+  display:none;
+}
+.nl-accordion > ul li label.nl-label:hover, .nl-accordion [type="radio"].nl-radio:checked ~ label.nl-label, .nl-accordion [type="checkbox"].nl-checkbox:checked ~ label.nl-label {
+  background: #1dccc7;
+  color:#FFF;
+}
+.nl-accordion [type="radio"].nl-radio:checked ~ label.nl-label, .nl-accordion [type="checkbox"].nl-checkbox:checked ~ label.nl-label {
+  border-bottom:0;
+}
+.nl-accordion > ul li .nl-content {
+  height:0px;
+    padding:0 10px;
+	-webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+.nl-accordion [type="checkbox"].nl-checkbox:checked ~ label.nl-label ~ .nl-content, .nl-accordion [type="radio"].nl-radio:checked ~ label.nl-label ~ .nl-content{
+  height:200px;
+	overflow:auto;
+}
+
+.nl-label i{
+    padding-right: 10px;
+}

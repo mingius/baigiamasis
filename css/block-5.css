@@ -1,0 +1,103 @@
+.block-5-row {
+  background-color: #f9fbfa;
+  margin: 0px; }
+  .block-5-row .block-5-content {
+    margin-bottom: 70px; }
+    .block-5-row .block-5-content .carousel-indicators li {
+      margin-bottom: -30px;
+      color: #1dccc7;
+      border: 1px solid #c6c6c6; }
+    .block-5-row .block-5-content .carousel-indicators .active {
+      background-color: #1dccc7; }
+    .block-5-row .block-5-content .block-5-title {
+      text-align: center; }
+      .block-5-row .block-5-content .block-5-title h2 {
+        margin-top: 50px;
+        font-family: Bebas;
+        color: #31403e; }
+      .block-5-row .block-5-content .block-5-title i {
+        color: #1dccc7;
+        padding: 10px; }
+      .block-5-row .block-5-content .block-5-title h3 {
+        font-family: Gravity;
+        font-weight: lighter;
+        padding: 40px;
+        color: #9d9d9d; }
+    .block-5-row .block-5-content .page-1 .team-profile-left {
+      margin-bottom: 40px; }
+      .block-5-row .block-5-content .page-1 .team-profile-left .team-text-left {
+        text-align: right; }
+        .block-5-row .block-5-content .page-1 .team-profile-left .team-text-left a {
+          padding: 0px;
+          font-family: Arial;
+          color: #707876;
+          text-decoration: none; }
+        .block-5-row .block-5-content .page-1 .team-profile-left .team-text-left a:hover {
+          color: #1dccc7; }
+        .block-5-row .block-5-content .page-1 .team-profile-left .team-text-left h5, .block-5-row .block-5-content .page-1 .team-profile-left .team-text-left p {
+          font-family: Arial;
+          color: #9d9d9d;
+          font-size: 15px; }
+        .block-5-row .block-5-content .page-1 .team-profile-left .team-text-left p {
+          padding-top: 20px;
+          padding-bottom: 20px; }
+        .block-5-row .block-5-content .page-1 .team-profile-left .team-text-left .btn-social {
+          width: 40px;
+          height: 40px;
+          background-color: #FFFFFF;
+          border: 1px solid #d6d6d6;
+          border-radius: 20px;
+          padding: 0px; }
+          .block-5-row .block-5-content .page-1 .team-profile-left .team-text-left .btn-social i {
+            color: #80827F;
+            padding: 0px; }
+        .block-5-row .block-5-content .page-1 .team-profile-left .team-text-left .btn-social:hover {
+          border: 1px solid #1dccc7;
+          color: #1dccc7; }
+          .block-5-row .block-5-content .page-1 .team-profile-left .team-text-left .btn-social:hover i {
+            color: #1dccc7; }
+      .block-5-row .block-5-content .page-1 .team-profile-left .team-photo img {
+        max-width: 100%;
+        border: 1px solid #d6d6d6;
+        border-radius: 300px;
+        padding: 10px; }
+    .block-5-row .block-5-content .page-1 .team-profile-right {
+      margin-bottom: 40px; }
+      .block-5-row .block-5-content .page-1 .team-profile-right .team-text-right {
+        text-align: left; }
+        .block-5-row .block-5-content .page-1 .team-profile-right .team-text-right a {
+          padding: 0px;
+          font-family: Arial;
+          color: #707876;
+          text-decoration: none; }
+        .block-5-row .block-5-content .page-1 .team-profile-right .team-text-right a:hover {
+          color: #1dccc7; }
+        .block-5-row .block-5-content .page-1 .team-profile-right .team-text-right h5, .block-5-row .block-5-content .page-1 .team-profile-right .team-text-right p {
+          font-family: Arial;
+          color: #9d9d9d;
+          font-size: 15px; }
+        .block-5-row .block-5-content .page-1 .team-profile-right .team-text-right p {
+          padding-top: 20px;
+          padding-bottom: 20px; }
+        .block-5-row .block-5-content .page-1 .team-profile-right .team-text-right .btn-social {
+          width: 40px;
+          height: 40px;
+          background-color: #FFFFFF;
+          border: 1px solid #d6d6d6;
+          border-radius: 20px;
+          padding: 0px; }
+          .block-5-row .block-5-content .page-1 .team-profile-right .team-text-right .btn-social i {
+            color: #80827F;
+            padding: 0px; }
+        .block-5-row .block-5-content .page-1 .team-profile-right .team-text-right .btn-social:hover {
+          border: 1px solid #1dccc7;
+          color: #1dccc7; }
+          .block-5-row .block-5-content .page-1 .team-profile-right .team-text-right .btn-social:hover i {
+            color: #1dccc7; }
+      .block-5-row .block-5-content .page-1 .team-profile-right .team-photo img {
+        max-width: 100%;
+        border: 1px solid #d6d6d6;
+        border-radius: 300px;
+        padding: 10px; }
+
+/*# sourceMappingURL=block-5.css.map */
