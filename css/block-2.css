@@ -11,7 +11,7 @@
     margin: 0px 10px 30px 10px;
     position: relative;
     display: block;
-    width: 100%;
+    width: 90%;
     background: #293236;
     height: 35px;
     border-radius: 3px;
@@ -64,7 +64,14 @@
     height: 35px;
     line-height: 35px;
     color: #ffffff; }
-  .block-2-row .image-right img {
-    max-width: 100%; }
+  .block-2-row .image-right {
+    padding: 0; }
+    .block-2-row .image-right .bg {
+      width: 100%;
+      height: 600px;
+      background-image: url("../images/bg_header4.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; }
 
 /*# sourceMappingURL=block-2.css.map */

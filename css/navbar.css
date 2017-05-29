@@ -1,43 +1,79 @@
-header {
-  background-color: #FFFFFF;
-  color: #777777; }
-
-.mini-nav {
+header .mini-nav {
+  background-color: #f8faf7;
+  border-bottom: 1px solid #d8d8d8;
   min-height: 30px;
   margin-bottom: 0;
   border-radius: 0;
-  font-size: 10px; }
-  .mini-nav li {
-    padding: 5px 10px; }
-    .mini-nav li a {
+  font-size: 11px; }
+  header .mini-nav .navbar-left-mini .dropbtn-mini {
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer; }
+  header .mini-nav .navbar-left-mini .dropbtn-mini:hover {
+    color: #1dccc7;
+    background-color: #ffffff; }
+  header .mini-nav .navbar-left-mini .dropdown-mini {
+    position: relative;
+    display: inline-block; }
+  header .mini-nav .navbar-left-mini .dropdown-content-mini {
+    font-family: HappyTime;
+    font-weight: lighter;
+    font-size: 14px;
+    display: none;
+    position: absolute;
+    background-color: #1dccc7;
+    opacity: 0.9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1; }
+  header .mini-nav .navbar-left-mini .dropdown-content-mini a {
+    color: #ffffff;
+    opacity: 1;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block; }
+  header .mini-nav .navbar-left-mini .dropdown-content-mini a:hover {
+    background-color: #1db0ab; }
+  header .mini-nav .navbar-left-mini .dropdown-mini:hover .dropdown-content-mini {
+    display: block; }
+  header .mini-nav .navbar-left-mini .dropdown-mini:hover .dropbtn-mini {
+    background-color: #ffffff;
+    color: #1dccc7; }
+  header .mini-nav li {
+    padding: 5px 10px;
+    display: inline-block; }
+    header .mini-nav li a {
       padding: 0;
+      color: #323232; }
+    header .mini-nav li i {
+      margin-right: 5px; }
+    header .mini-nav li a:hover {
+      padding: 0;
+      color: #323232;
       color: #1dccc7; }
-
-.navbar-default {
+  header .mini-nav .mini-nav-left:hover {
+    color: #1dccc7; }
+header .navbar-default {
   background-color: #ffffff;
   margin-bottom: 0;
   border-radius: 0;
   font-weight: bold;
   border: none; }
-  .navbar-default .nav-container {
-    height: 70px;
-    border: none; }
-    .navbar-default .nav-container .navbar-brand img {
-      padding: 5px; }
-    .navbar-default .nav-container .nav-bar-left li {
-      padding: 10px; }
-      .navbar-default .nav-container .nav-bar-left li a {
-        font-size: 8px; }
-  .navbar-default .dropbtn {
+  header .navbar-default .nav-btn:hover a {
+    color: #1dccc7; }
+  header .navbar-default .navbar-header a {
+    width: 100%;
+    padding: 0px 15px; }
+  header .navbar-default .dropbtn {
     background-color: #ffffff;
     border: none;
     cursor: pointer; }
-  .navbar-default .dropbtn:hover {
+  header .navbar-default .dropbtn:hover {
     color: #1dccc7; }
-  .navbar-default .dropdown {
+  header .navbar-default .dropdown {
     position: relative;
     display: inline-block; }
-  .navbar-default .dropdown-content {
+  header .navbar-default .dropdown-content {
     font-family: Arial;
     font-weight: lighter;
     font-size: 10px;
@@ -48,34 +84,34 @@ header {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1; }
-  .navbar-default .dropdown-content a {
+  header .navbar-default .dropdown-content a {
     border-bottom: 1px solid #323232;
     color: #ffffff;
     opacity: 1;
     padding: 10px 10px;
     text-decoration: none;
     display: block; }
-  .navbar-default .dropdown-content a:hover {
+  header .navbar-default .dropdown-content a:hover {
     background-color: #141414; }
-  .navbar-default .dropdown:hover .dropdown-content {
+  header .navbar-default .dropdown:hover .dropdown-content {
     display: block; }
-  .navbar-default .dropdown:hover .dropbtn {
+  header .navbar-default .dropdown:hover .dropbtn {
     background-color: #ffffff;
     color: #1dccc7; }
-  .navbar-default .navbar-form {
+  header .navbar-default .navbar-form {
     padding: 0; }
-    .navbar-default .navbar-form .input-group input {
+    header .navbar-default .navbar-form .input-group input {
       width: 150px;
       border-radius: 15px; }
-    .navbar-default .navbar-form .input-group-btn {
+    header .navbar-default .navbar-form .input-group-btn {
       padding-left: 10px; }
-      .navbar-default .navbar-form .input-group-btn .btn {
+      header .navbar-default .navbar-form .input-group-btn .btn {
         background-color: #FFFFFF;
         border: 1px solid #d5d5d5;
         border-radius: 15px; }
-      .navbar-default .navbar-form .input-group-btn .btn:hover {
+      header .navbar-default .navbar-form .input-group-btn .btn:hover {
         color: #1dccc7; }
-  .navbar-default #myNavbar {
+  header .navbar-default #myNavbar {
     background-color: #FFFFFF; }
 
 /*# sourceMappingURL=navbar.css.map */
