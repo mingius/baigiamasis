@@ -24,9 +24,11 @@
         font-family: Bebas;
         color: #31403e;
       }
-      i{
-        color: #1dccc7;
-        padding: 10px;
+      .icon-anime {
+        i {
+          color: #1dccc7;
+          padding: 10px;
+        }
       }
       h3{
         font-family: Gravity;
@@ -87,6 +89,7 @@
         }
 
         .team-photo{
+          position: relative;
 
           img {
             max-width: 100%;

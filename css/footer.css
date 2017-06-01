@@ -1,17 +1,38 @@
 footer {
-  height: 80px;
   background-color: #131718;
   font-family: Arial;
   color: #525859; }
   footer .footer-row {
+    height: 80px;
     margin: 0px;
     padding: 0px; }
-    footer .footer-row .footer-block-left a {
-      text-decoration: none; }
-    footer .footer-row .footer-block-right {
+    footer .footer-row .footer-block-left {
+      height: 80px;
       display: table; }
-      footer .footer-row .footer-block-right a {
-        float: right;
+      footer .footer-row .footer-block-left p {
+        text-decoration: none;
+        display: table-cell;
+        vertical-align: middle; }
+      footer .footer-row .footer-block-left a {
+        color: #1dccc7;
         text-decoration: none; }
+      footer .footer-row .footer-block-left a:hover {
+        color: #1b6d85; }
+    footer .footer-row .footer-block-right {
+      height: 80px;
+      display: table; }
+      footer .footer-row .footer-block-right .footer-nav {
+        display: table-cell;
+        vertical-align: middle; }
+        footer .footer-row .footer-block-right .footer-nav ul li {
+          float: right;
+          display: inline-block; }
+          footer .footer-row .footer-block-right .footer-nav ul li a {
+            color: #525859;
+            text-decoration: none;
+            padding: 10px; }
+          footer .footer-row .footer-block-right .footer-nav ul li a:hover {
+            color: #1dccc7;
+            transition: 1s; }
 
 /*# sourceMappingURL=footer.css.map */

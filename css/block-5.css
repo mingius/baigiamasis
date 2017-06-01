@@ -15,7 +15,7 @@
         margin-top: 50px;
         font-family: Bebas;
         color: #31403e; }
-      .block-5-row .block-5-content .block-5-title i {
+      .block-5-row .block-5-content .block-5-title .icon-anime i {
         color: #1dccc7;
         padding: 10px; }
       .block-5-row .block-5-content .block-5-title h3 {
@@ -56,11 +56,13 @@
           color: #1dccc7; }
           .block-5-row .block-5-content .page-1 .team-profile-left .team-text-left .btn-social:hover i {
             color: #1dccc7; }
-      .block-5-row .block-5-content .page-1 .team-profile-left .team-photo img {
-        max-width: 100%;
-        border: 1px solid #d6d6d6;
-        border-radius: 300px;
-        padding: 10px; }
+      .block-5-row .block-5-content .page-1 .team-profile-left .team-photo {
+        position: relative; }
+        .block-5-row .block-5-content .page-1 .team-profile-left .team-photo img {
+          max-width: 100%;
+          border: 1px solid #d6d6d6;
+          border-radius: 300px;
+          padding: 10px; }
     .block-5-row .block-5-content .page-1 .team-profile-right {
       margin-bottom: 40px; }
       .block-5-row .block-5-content .page-1 .team-profile-right .team-text-right {

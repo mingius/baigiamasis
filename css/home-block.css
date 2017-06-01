@@ -29,6 +29,35 @@
           display: table-cell;
           vertical-align: middle;
           padding: 15px; }
+      .home-block .container .titles .animated {
+        background-position: center;
+        padding-top: 95px;
+        margin-bottom: 60px;
+        -webkit-animation-duration: 10s;
+        animation-duration: 10s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both; }
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(200px); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0); } }
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateX(200px); }
+  100% {
+    opacity: 1;
+    transform: translateX(0); } }
+      .home-block .container .titles .fade-in-home-1 {
+        -webkit-animation-name: fadeInRight;
+        animation-name: fadeInRight; }
+      .home-block .container .titles .fade-in-home-1 {
+        position: relative;
+        -webkit-animation: fadeIn 0.5s ease-in .5s both;
+        animation: fadeIn 0.5s ease-in .5s both; }
       .home-block .container .titles .black-block {
         background-color: rgba(0, 0, 0, 0.7);
         color: #bfbfbf;

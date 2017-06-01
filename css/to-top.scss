@@ -1,0 +1,21 @@
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  outline: none;
+  background-color: #1db0ab;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #FFFFFF;
+}
+
+#myBtn:hover {
+  background-color: #fcfffb;
+  color: #1dccc7;
+  border: 1px solid #1db0ab;
+  transition: 1s ease-in-out;
+}

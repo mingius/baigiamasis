@@ -44,13 +44,14 @@
           color: #707876;
         }
 
-        h4:hover{
-          color: #1dccc7;
-        }
-
         p{
           color: #9d9d9d;
         }
+      }
+    }
+    .left-block-info:hover{
+      h4 {
+        color: #1dccc7;
       }
     }
   }

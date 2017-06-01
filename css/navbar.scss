@@ -105,8 +105,7 @@ header {
     .navbar-header{
 
       a{
-        width: 100%;
-        padding: 0px 15px;
+        padding: 0;
 
       }
     }
@@ -190,5 +189,6 @@ header {
       background-color: #FFFFFF;
     }
   }
+  transition: all .5s ease-out;
 }
 

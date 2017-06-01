@@ -3,8 +3,66 @@
   color: #FFFFFF;
 
   .group{
-    margin: 80px 0px;
+    margin: 40px 0px;
 
+
+    .group-6-content{
+      margin-top: 40px;
+
+      .title{
+        margin: 40px 0px;
+      }
+
+      .best-author{
+        background-color: #FFFFFF;
+        height: 100px;
+        width: 100%;
+        display: table;
+        margin-bottom: 50px;
+
+        img {
+          margin-top: -25px;
+          margin-left: 10px;
+          float: left;
+          max-width: 100px;
+        }
+      }
+      .best-author-btn{
+        margin-top: 15px;
+        text-decoration: none;
+        color: #9d9d9d;
+
+      }
+
+      h5{
+        float: right;
+        width: 50%;
+        padding-top: 15px
+      }
+
+      h5:hover{
+        color: #1dccc7;
+        transition: 1s;
+      }
+
+      .social{
+        float: right;
+        width: 50%;
+
+        a{
+          padding: 0px;
+        }
+        i{
+          color: #9d9d9d;
+          margin-right: 8px;
+        }
+
+        i:hover{
+          color: #1dccc7;
+          transition: 1s ease;
+        }
+      }
+    }
     hr{
       background-color: #FFFFFF;
     }
@@ -13,10 +71,6 @@
       font-weight: bolder;
       margin-bottom: 20px;
     }
-    img{
-      margin-bottom: 20px;
-    }
-
     p{
       color: #9d9d9d;
       margin-bottom: 20px;
@@ -27,18 +81,109 @@
       background-color: #0e1417;
       border: none;
     }
+
+    .btn-default:hover{
+      color: #1dccc7;
+      transition: 2s;
+    }
+
+    .group5-content{
+      padding: 0px;
+
+      .flicker-widget{
+        padding: 5px;
+      }
+    }
+    .group-0-content{
+      margin-top: 40px;
+    }
+
+    .group-7-content{
+
+      .btn-div{
+
+        .w3-black{
+          max-width: 100%;
+          padding: 0px;
+
+          img{
+            width: 100%;
+          }
+        }
+
+        .w3-modal{
+
+
+          .w3-modal-content{
+            background-color: #181f21;
+            max-width: 580px;
+            max-height: 335px;
+          }
+
+          .w3-container{
+            padding: 10px;
+          }
+        }
+
+        a{
+          border: none;
+          background-color: transparent;
+          padding: 0;
+
+          img{
+            width: 100%;
+          }
+        }
+
+        .modal{
+          padding-right: 0;
+        }
+      }
+    }
   }
 
 
+
   .row {
+    padding-bottom: 15px;
 
-    .thumb-img{
+    .thumb-img {
       padding: 0px;
-
-      img{
-        max-width: 100%;
-      }
     }
+
+      .image {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease-in-out;
+        background-color: #1dccc7;
+      }
+
+      .thumb-img:hover .overlay {
+        opacity: 1;
+      }
+
+      .overlay-icon {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+      }
+
 
     .thumb-text {
 
@@ -58,18 +203,69 @@
 
   .btn-more-posts {
     width: 100%;
-    background-color: #14191a;
     color: #1dccc7;
+    background-color: #14191a;
     border: 1px solid #1dccc7;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+  }
+  .btn-more-posts:hover {
+    background: #1dccc7;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
   }
 
   .widget-img{
-    padding: 5px;
+    padding: 0px;
 
     img{
+      background-color: #1dccc7;
       max-width: 100%;
       margin: 0px;
     }
+
+  }
+
+  .widget-img {
+    position: relative;
+  }
+
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease-in-out;
+    background-color: #1dccc7;
+
+  }
+
+  .widget-img:hover .overlay {
+    opacity: 1;
+  }
+
+  .overlay-icon {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
   }
 
   .group1-content{
@@ -98,7 +294,7 @@
 
         border: 1px solid #1dccc7;
         color: #FFFFFF;
-        transition: all .8s ease-out;
+        transition: all .8s ease-in-out;
 
       }
     }
@@ -107,4 +303,6 @@
   hr{
     border: 1px solid #242a2c;
   }
+
+
 }
